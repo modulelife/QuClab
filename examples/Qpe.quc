@@ -1,0 +1,4291 @@
+{
+    "breakpoints": {
+        "columns": [
+        ]
+    },
+    "circuit": {
+        "column_count": 410,
+        "initial_state": {
+            "basis_bits": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "dirty_flags": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "mode": "zero"
+        },
+        "next_block_id": "362",
+        "objects": [
+            {
+                "block_id": "1",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 0
+                }
+            },
+            {
+                "block_id": "2",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 1
+                }
+            },
+            {
+                "block_id": "3",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "4",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 3
+                }
+            },
+            {
+                "block_id": "5",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 4
+                }
+            },
+            {
+                "block_id": "6",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 5
+                }
+            },
+            {
+                "block_id": "7",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 6
+                }
+            },
+            {
+                "block_id": "8",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 7
+                }
+            },
+            {
+                "block_id": "9",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "10",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "11",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "12",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "13",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "14",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "15",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "16",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "17",
+                "column": 1,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "x",
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "18",
+                "column": 3,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 15,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "19",
+                "column": 4,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 14,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 2,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "20",
+                "column": 5,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 13,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 4,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "21",
+                "column": 6,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 12,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 8,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "22",
+                "column": 7,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 11,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 16,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "23",
+                "column": 8,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 10,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 32,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "24",
+                "column": 9,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 9,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 64,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "25",
+                "column": 10,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 8,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 128,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "26",
+                "column": 11,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 7,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 256,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "27",
+                "column": 12,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 512,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "28",
+                "column": 13,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1024,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "29",
+                "column": 14,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 2048,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "30",
+                "column": 15,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 4096,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "31",
+                "column": 16,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 8192,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "32",
+                "column": 17,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 16384,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "33",
+                "column": 18,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": 6.283185307179586,
+                        "division_mode": "none",
+                        "k": 0,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "θ"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 32768,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 16
+                }
+            },
+            {
+                "block_id": "34",
+                "column": 20,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 0
+                }
+            },
+            {
+                "block_id": "35",
+                "column": 21,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 1
+                }
+            },
+            {
+                "block_id": "36",
+                "column": 22,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 1
+                }
+            },
+            {
+                "block_id": "37",
+                "column": 23,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "38",
+                "column": 24,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "39",
+                "column": 25,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "40",
+                "column": 26,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 3
+                }
+            },
+            {
+                "block_id": "41",
+                "column": 27,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 3
+                }
+            },
+            {
+                "block_id": "42",
+                "column": 28,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 3
+                }
+            },
+            {
+                "block_id": "43",
+                "column": 29,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 3
+                }
+            },
+            {
+                "block_id": "44",
+                "column": 30,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 4
+                }
+            },
+            {
+                "block_id": "45",
+                "column": 31,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 4
+                }
+            },
+            {
+                "block_id": "46",
+                "column": 32,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 4
+                }
+            },
+            {
+                "block_id": "47",
+                "column": 33,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 4
+                }
+            },
+            {
+                "block_id": "48",
+                "column": 34,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 4
+                }
+            },
+            {
+                "block_id": "49",
+                "column": 35,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 5
+                }
+            },
+            {
+                "block_id": "50",
+                "column": 36,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 5
+                }
+            },
+            {
+                "block_id": "51",
+                "column": 37,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 5
+                }
+            },
+            {
+                "block_id": "52",
+                "column": 38,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 5
+                }
+            },
+            {
+                "block_id": "53",
+                "column": 39,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 5
+                }
+            },
+            {
+                "block_id": "54",
+                "column": 40,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 5
+                }
+            },
+            {
+                "block_id": "55",
+                "column": 41,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 6
+                }
+            },
+            {
+                "block_id": "56",
+                "column": 42,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 6
+                }
+            },
+            {
+                "block_id": "57",
+                "column": 43,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 6
+                }
+            },
+            {
+                "block_id": "58",
+                "column": 44,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 6
+                }
+            },
+            {
+                "block_id": "59",
+                "column": 45,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 6
+                }
+            },
+            {
+                "block_id": "60",
+                "column": 46,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 6
+                }
+            },
+            {
+                "block_id": "61",
+                "column": 47,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 6
+                }
+            },
+            {
+                "block_id": "62",
+                "column": 48,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 7,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 7
+                }
+            },
+            {
+                "block_id": "63",
+                "column": 49,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 7
+                }
+            },
+            {
+                "block_id": "64",
+                "column": 50,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 7
+                }
+            },
+            {
+                "block_id": "65",
+                "column": 51,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 7
+                }
+            },
+            {
+                "block_id": "66",
+                "column": 52,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 7
+                }
+            },
+            {
+                "block_id": "67",
+                "column": 53,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 7
+                }
+            },
+            {
+                "block_id": "68",
+                "column": 54,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 7
+                }
+            },
+            {
+                "block_id": "69",
+                "column": 55,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 7
+                }
+            },
+            {
+                "block_id": "70",
+                "column": 56,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 8,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "71",
+                "column": 57,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 7,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "72",
+                "column": 58,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "73",
+                "column": 59,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "74",
+                "column": 60,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "75",
+                "column": 61,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "76",
+                "column": 62,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "77",
+                "column": 63,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 7,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "78",
+                "column": 64,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 8
+                }
+            },
+            {
+                "block_id": "79",
+                "column": 65,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 9,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "80",
+                "column": 66,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 8,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "81",
+                "column": 67,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 7,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "82",
+                "column": 68,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "83",
+                "column": 69,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "84",
+                "column": 70,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "85",
+                "column": 71,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "86",
+                "column": 72,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 7,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "87",
+                "column": 73,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 8,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "88",
+                "column": 74,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 9
+                }
+            },
+            {
+                "block_id": "89",
+                "column": 75,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 10,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "90",
+                "column": 76,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 9,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "91",
+                "column": 77,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 8,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "92",
+                "column": 78,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 7,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "93",
+                "column": 79,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "94",
+                "column": 80,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "95",
+                "column": 81,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "96",
+                "column": 82,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 7,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "97",
+                "column": 83,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 8,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "98",
+                "column": 84,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 9,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "99",
+                "column": 85,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 10
+                }
+            },
+            {
+                "block_id": "100",
+                "column": 86,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 11,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "101",
+                "column": 87,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 10,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "102",
+                "column": 88,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 9,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "103",
+                "column": 89,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 8,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "104",
+                "column": 90,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 7,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "105",
+                "column": 91,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "106",
+                "column": 92,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "107",
+                "column": 93,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 7,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "108",
+                "column": 94,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 8,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "109",
+                "column": 95,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 9,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "110",
+                "column": 96,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 10,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "111",
+                "column": 97,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 11
+                }
+            },
+            {
+                "block_id": "112",
+                "column": 98,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 12,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "113",
+                "column": 99,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 11,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "114",
+                "column": 100,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 10,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "115",
+                "column": 101,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 9,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "116",
+                "column": 102,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 8,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "117",
+                "column": 103,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 7,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "118",
+                "column": 104,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "119",
+                "column": 105,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 7,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "120",
+                "column": 106,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 8,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "121",
+                "column": 107,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 9,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "122",
+                "column": 108,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 10,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "123",
+                "column": 109,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 11,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "124",
+                "column": 110,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 12
+                }
+            },
+            {
+                "block_id": "125",
+                "column": 111,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 13,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "126",
+                "column": 112,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 12,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "127",
+                "column": 113,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 11,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "128",
+                "column": 114,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 10,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "129",
+                "column": 115,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 9,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "130",
+                "column": 116,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 8,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "131",
+                "column": 117,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 7,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "132",
+                "column": 118,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 7,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "133",
+                "column": 119,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 8,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "134",
+                "column": 120,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 9,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "135",
+                "column": 121,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 10,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "136",
+                "column": 122,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 11,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "137",
+                "column": 123,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 12,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "138",
+                "column": 124,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 13
+                }
+            },
+            {
+                "block_id": "139",
+                "column": 125,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 14,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "140",
+                "column": 126,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 13,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "141",
+                "column": 127,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 12,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "142",
+                "column": 128,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 11,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "143",
+                "column": 129,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 10,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "144",
+                "column": 130,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 9,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "145",
+                "column": 131,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 8,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "146",
+                "column": 132,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 7,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 7,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "147",
+                "column": 133,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 8,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "148",
+                "column": 134,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 9,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "149",
+                "column": 135,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 10,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "150",
+                "column": 136,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 11,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "151",
+                "column": 137,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 12,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "152",
+                "column": 138,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 13,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "153",
+                "column": 139,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 14
+                }
+            },
+            {
+                "block_id": "154",
+                "column": 140,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 15,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 0,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "155",
+                "column": 141,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 14,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "156",
+                "column": 142,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 13,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 2,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "157",
+                "column": 143,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 12,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 3,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "158",
+                "column": 144,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 11,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 4,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "159",
+                "column": 145,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 10,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 5,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "160",
+                "column": 146,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 9,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 6,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "161",
+                "column": 147,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 8,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 7,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "162",
+                "column": 148,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 7,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 8,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "163",
+                "column": 149,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 6,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 9,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "164",
+                "column": 150,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 5,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 10,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "165",
+                "column": 151,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 4,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 11,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "166",
+                "column": 152,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 3,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 12,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "167",
+                "column": 153,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 2,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 13,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "168",
+                "column": 154,
+                "kind": "rotation_gate",
+                "payload": {
+                    "angle_binding": {
+                        "coefficient": -1,
+                        "division_mode": "divide_by_2_pow_k",
+                        "k": 1,
+                        "literal_value": 0,
+                        "mode": "parameter",
+                        "parameter_key": "π"
+                    },
+                    "controls": [
+                        {
+                            "row": 14,
+                            "value": true
+                        }
+                    ],
+                    "gate_kind": "u1",
+                    "repeat_times_binding": {
+                        "literal_value": 1,
+                        "mode": "literal",
+                        "parameter_key": ""
+                    },
+                    "target_row": 15
+                }
+            },
+            {
+                "block_id": "169",
+                "column": 155,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 15
+                }
+            }
+        ],
+        "qubit_count": 17
+    },
+    "format_version": 1,
+    "navigator": {
+        "labels": [
+            {
+                "column": 0,
+                "id": "1",
+                "level": 1,
+                "title": "Preparation"
+            },
+            {
+                "column": 2,
+                "id": "2",
+                "level": 1,
+                "title": "CU1 series"
+            },
+            {
+                "column": 19,
+                "id": "3",
+                "level": 1,
+                "title": "Inverse QFT"
+            }
+        ],
+        "qubit_groups": [
+            {
+                "first_qubit": 0,
+                "id": "1",
+                "last_qubit": 15,
+                "name": "Working"
+            },
+            {
+                "first_qubit": 16,
+                "id": "2",
+                "last_qubit": 16,
+                "name": "Ancilla"
+            }
+        ]
+    },
+    "parameters": {
+        "items": [
+            {
+                "double_value": 2.718281828459045,
+                "is_builtin": true,
+                "name": "e",
+                "type": "floating",
+                "unsigned_value": 0
+            },
+            {
+                "double_value": 0.63379,
+                "is_builtin": false,
+                "name": "θ",
+                "type": "floating",
+                "unsigned_value": 0
+            },
+            {
+                "double_value": 3.141592653589793,
+                "is_builtin": true,
+                "name": "π",
+                "type": "floating",
+                "unsigned_value": 0
+            }
+        ]
+    },
+    "project": {
+        "app_name": "QuClab",
+        "app_version": "0.1.1"
+    }
+}

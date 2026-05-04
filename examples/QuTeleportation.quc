@@ -1,0 +1,245 @@
+{
+    "breakpoints": {
+        "columns": [
+        ]
+    },
+    "circuit": {
+        "column_count": 256,
+        "initial_state": {
+            "basis_bits": [
+                false,
+                false,
+                false
+            ],
+            "dirty_flags": [
+                false,
+                false,
+                false
+            ],
+            "mode": "zero"
+        },
+        "next_block_id": "114",
+        "objects": [
+            {
+                "block_id": "1",
+                "column": 0,
+                "kind": "random_unitary_gate",
+                "payload": {
+                    "target_rows": [
+                        0
+                    ]
+                }
+            },
+            {
+                "block_id": "2",
+                "column": 1,
+                "kind": "qubit_snooper",
+                "payload": {
+                    "target_row": 0
+                }
+            },
+            {
+                "block_id": "3",
+                "column": 2,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 1
+                }
+            },
+            {
+                "block_id": "4",
+                "column": 2,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "x",
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "5",
+                "column": 3,
+                "kind": "cnot_gate",
+                "payload": {
+                    "control_row": 1,
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "6",
+                "column": 4,
+                "kind": "cnot_gate",
+                "payload": {
+                    "control_row": 0,
+                    "target_row": 1
+                }
+            },
+            {
+                "block_id": "7",
+                "column": 5,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "h",
+                    "target_row": 0
+                }
+            },
+            {
+                "block_id": "8",
+                "column": 6,
+                "kind": "switch",
+                "payload": {
+                    "condition_rows": [
+                        0,
+                        1
+                    ]
+                }
+            },
+            {
+                "block_id": "9",
+                "column": 7,
+                "kind": "case",
+                "payload": {
+                    "conditions": [
+                        {
+                            "row": 0,
+                            "value": false
+                        },
+                        {
+                            "row": 1,
+                            "value": false
+                        }
+                    ]
+                }
+            },
+            {
+                "block_id": "14",
+                "column": 8,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "x",
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "10",
+                "column": 9,
+                "kind": "case",
+                "payload": {
+                    "conditions": [
+                        {
+                            "row": 0,
+                            "value": true
+                        },
+                        {
+                            "row": 1,
+                            "value": false
+                        }
+                    ]
+                }
+            },
+            {
+                "block_id": "15",
+                "column": 10,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "x",
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "16",
+                "column": 11,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "z",
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "11",
+                "column": 12,
+                "kind": "case",
+                "payload": {
+                    "conditions": [
+                        {
+                            "row": 0,
+                            "value": true
+                        },
+                        {
+                            "row": 1,
+                            "value": true
+                        }
+                    ]
+                }
+            },
+            {
+                "block_id": "17",
+                "column": 13,
+                "kind": "basic_gate",
+                "payload": {
+                    "controls": [
+                    ],
+                    "gate_kind": "z",
+                    "target_row": 2
+                }
+            },
+            {
+                "block_id": "12",
+                "column": 14,
+                "kind": "end_switch",
+                "payload": {
+                }
+            },
+            {
+                "block_id": "13",
+                "column": 15,
+                "kind": "qubit_snooper",
+                "payload": {
+                    "target_row": 2
+                }
+            }
+        ],
+        "qubit_count": 3
+    },
+    "format_version": 1,
+    "navigator": {
+        "labels": [
+        ],
+        "qubit_groups": [
+        ]
+    },
+    "parameters": {
+        "items": [
+            {
+                "double_value": 2.718281828459045,
+                "is_builtin": true,
+                "name": "e",
+                "type": "floating",
+                "unsigned_value": 0
+            },
+            {
+                "double_value": 3.141592653589793,
+                "is_builtin": true,
+                "name": "π",
+                "type": "floating",
+                "unsigned_value": 0
+            }
+        ]
+    },
+    "project": {
+        "app_name": "QuClab",
+        "app_version": "0.1.1"
+    }
+}
