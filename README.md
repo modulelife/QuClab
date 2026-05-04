@@ -64,7 +64,7 @@ QuClab uses external components as part of its current development environment, 
 ## License Status
 
 ### QuClab
-This `0.x.x` beta line of QuClab is currently **proprietary** and **not open source**.
+This `0.x.x` beta line of QuClab is currently **freeware** and **not open source**.
 
 ### Qcdtr1
 The backend library **Qcdtr1** is maintained separately and uses its own license.
