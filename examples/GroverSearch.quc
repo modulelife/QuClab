@@ -4,7 +4,7 @@
         ]
     },
     "circuit": {
-        "column_count": 259,
+        "column_count": 255,
         "initial_state": {
             "basis_bits": [
                 false,
@@ -296,51 +296,14 @@
                 }
             },
             {
-                "block_id": "27",
-                "column": 5,
-                "kind": "pauli_gate",
-                "payload": {
-                    "items": [
-                        {
-                            "operator": "x",
-                            "row": 0
-                        },
-                        {
-                            "operator": "x",
-                            "row": 5
-                        },
-                        {
-                            "operator": "x",
-                            "row": 8
-                        },
-                        {
-                            "operator": "x",
-                            "row": 9
-                        },
-                        {
-                            "operator": "x",
-                            "row": 14
-                        },
-                        {
-                            "operator": "x",
-                            "row": 16
-                        },
-                        {
-                            "operator": "x",
-                            "row": 18
-                        }
-                    ]
-                }
-            },
-            {
                 "block_id": "28",
-                "column": 6,
+                "column": 5,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
                         {
                             "row": 0,
-                            "value": true
+                            "value": false
                         },
                         {
                             "row": 1,
@@ -360,7 +323,7 @@
                         },
                         {
                             "row": 5,
-                            "value": true
+                            "value": false
                         },
                         {
                             "row": 6,
@@ -372,11 +335,11 @@
                         },
                         {
                             "row": 8,
-                            "value": true
+                            "value": false
                         },
                         {
                             "row": 9,
-                            "value": true
+                            "value": false
                         },
                         {
                             "row": 10,
@@ -396,7 +359,7 @@
                         },
                         {
                             "row": 14,
-                            "value": true
+                            "value": false
                         },
                         {
                             "row": 15,
@@ -404,7 +367,7 @@
                         },
                         {
                             "row": 16,
-                            "value": true
+                            "value": false
                         },
                         {
                             "row": 17,
@@ -412,7 +375,7 @@
                         },
                         {
                             "row": 18,
-                            "value": true
+                            "value": false
                         },
                         {
                             "row": 19,
@@ -424,45 +387,8 @@
                 }
             },
             {
-                "block_id": "30",
-                "column": 7,
-                "kind": "pauli_gate",
-                "payload": {
-                    "items": [
-                        {
-                            "operator": "x",
-                            "row": 0
-                        },
-                        {
-                            "operator": "x",
-                            "row": 5
-                        },
-                        {
-                            "operator": "x",
-                            "row": 8
-                        },
-                        {
-                            "operator": "x",
-                            "row": 9
-                        },
-                        {
-                            "operator": "x",
-                            "row": 14
-                        },
-                        {
-                            "operator": "x",
-                            "row": 16
-                        },
-                        {
-                            "operator": "x",
-                            "row": 18
-                        }
-                    ]
-                }
-            },
-            {
                 "block_id": "31",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -473,7 +399,7 @@
             },
             {
                 "block_id": "32",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -484,7 +410,7 @@
             },
             {
                 "block_id": "33",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -495,7 +421,7 @@
             },
             {
                 "block_id": "34",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -506,7 +432,7 @@
             },
             {
                 "block_id": "35",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -517,7 +443,7 @@
             },
             {
                 "block_id": "36",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -528,7 +454,7 @@
             },
             {
                 "block_id": "37",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -539,7 +465,7 @@
             },
             {
                 "block_id": "38",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -550,7 +476,7 @@
             },
             {
                 "block_id": "39",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -561,7 +487,7 @@
             },
             {
                 "block_id": "40",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -572,7 +498,7 @@
             },
             {
                 "block_id": "41",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -583,7 +509,7 @@
             },
             {
                 "block_id": "42",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -594,7 +520,7 @@
             },
             {
                 "block_id": "43",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -605,7 +531,7 @@
             },
             {
                 "block_id": "44",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -616,7 +542,7 @@
             },
             {
                 "block_id": "45",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -627,7 +553,7 @@
             },
             {
                 "block_id": "46",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -638,7 +564,7 @@
             },
             {
                 "block_id": "47",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -649,7 +575,7 @@
             },
             {
                 "block_id": "48",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -660,7 +586,7 @@
             },
             {
                 "block_id": "49",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -671,7 +597,7 @@
             },
             {
                 "block_id": "50",
-                "column": 10,
+                "column": 7,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -682,7 +608,7 @@
             },
             {
                 "block_id": "51",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -693,7 +619,7 @@
             },
             {
                 "block_id": "52",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -704,7 +630,7 @@
             },
             {
                 "block_id": "53",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -715,7 +641,7 @@
             },
             {
                 "block_id": "54",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -726,7 +652,7 @@
             },
             {
                 "block_id": "55",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -737,7 +663,7 @@
             },
             {
                 "block_id": "56",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -748,7 +674,7 @@
             },
             {
                 "block_id": "57",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -759,7 +685,7 @@
             },
             {
                 "block_id": "58",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -770,7 +696,7 @@
             },
             {
                 "block_id": "59",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -781,7 +707,7 @@
             },
             {
                 "block_id": "60",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -792,7 +718,7 @@
             },
             {
                 "block_id": "61",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -803,7 +729,7 @@
             },
             {
                 "block_id": "62",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -814,7 +740,7 @@
             },
             {
                 "block_id": "63",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -825,7 +751,7 @@
             },
             {
                 "block_id": "64",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -836,7 +762,7 @@
             },
             {
                 "block_id": "65",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -847,7 +773,7 @@
             },
             {
                 "block_id": "66",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -858,7 +784,7 @@
             },
             {
                 "block_id": "67",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -869,7 +795,7 @@
             },
             {
                 "block_id": "68",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -880,7 +806,7 @@
             },
             {
                 "block_id": "69",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -891,7 +817,7 @@
             },
             {
                 "block_id": "70",
-                "column": 11,
+                "column": 8,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -902,7 +828,7 @@
             },
             {
                 "block_id": "71",
-                "column": 12,
+                "column": 9,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -993,7 +919,7 @@
             },
             {
                 "block_id": "72",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1004,7 +930,7 @@
             },
             {
                 "block_id": "73",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1015,7 +941,7 @@
             },
             {
                 "block_id": "74",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1026,7 +952,7 @@
             },
             {
                 "block_id": "75",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1037,7 +963,7 @@
             },
             {
                 "block_id": "76",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1048,7 +974,7 @@
             },
             {
                 "block_id": "77",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1059,7 +985,7 @@
             },
             {
                 "block_id": "78",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1070,7 +996,7 @@
             },
             {
                 "block_id": "79",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1081,7 +1007,7 @@
             },
             {
                 "block_id": "80",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1092,7 +1018,7 @@
             },
             {
                 "block_id": "81",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1103,7 +1029,7 @@
             },
             {
                 "block_id": "82",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1114,7 +1040,7 @@
             },
             {
                 "block_id": "83",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1125,7 +1051,7 @@
             },
             {
                 "block_id": "84",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1136,7 +1062,7 @@
             },
             {
                 "block_id": "85",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1147,7 +1073,7 @@
             },
             {
                 "block_id": "86",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1158,7 +1084,7 @@
             },
             {
                 "block_id": "87",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1169,7 +1095,7 @@
             },
             {
                 "block_id": "88",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1180,7 +1106,7 @@
             },
             {
                 "block_id": "89",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1191,7 +1117,7 @@
             },
             {
                 "block_id": "90",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1202,7 +1128,7 @@
             },
             {
                 "block_id": "91",
-                "column": 13,
+                "column": 10,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1213,7 +1139,7 @@
             },
             {
                 "block_id": "92",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1224,7 +1150,7 @@
             },
             {
                 "block_id": "93",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1235,7 +1161,7 @@
             },
             {
                 "block_id": "94",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1246,7 +1172,7 @@
             },
             {
                 "block_id": "95",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1257,7 +1183,7 @@
             },
             {
                 "block_id": "96",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1268,7 +1194,7 @@
             },
             {
                 "block_id": "97",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1279,7 +1205,7 @@
             },
             {
                 "block_id": "98",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1290,7 +1216,7 @@
             },
             {
                 "block_id": "99",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1301,7 +1227,7 @@
             },
             {
                 "block_id": "100",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1312,7 +1238,7 @@
             },
             {
                 "block_id": "101",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1323,7 +1249,7 @@
             },
             {
                 "block_id": "102",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1334,7 +1260,7 @@
             },
             {
                 "block_id": "103",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1345,7 +1271,7 @@
             },
             {
                 "block_id": "104",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1356,7 +1282,7 @@
             },
             {
                 "block_id": "105",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1367,7 +1293,7 @@
             },
             {
                 "block_id": "106",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1378,7 +1304,7 @@
             },
             {
                 "block_id": "107",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1389,7 +1315,7 @@
             },
             {
                 "block_id": "108",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1400,7 +1326,7 @@
             },
             {
                 "block_id": "109",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1411,7 +1337,7 @@
             },
             {
                 "block_id": "110",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1422,7 +1348,7 @@
             },
             {
                 "block_id": "111",
-                "column": 14,
+                "column": 11,
                 "kind": "basic_gate",
                 "payload": {
                     "controls": [
@@ -1433,7 +1359,7 @@
             },
             {
                 "block_id": "112",
-                "column": 16,
+                "column": 12,
                 "kind": "loop_end",
                 "payload": {
                 }
@@ -1463,7 +1389,7 @@
                 "title": "oracle"
             },
             {
-                "column": 9,
+                "column": 6,
                 "id": "5",
                 "level": 2,
                 "title": "spread"
