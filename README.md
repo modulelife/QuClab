@@ -76,4 +76,7 @@ This README is intentionally written in a **executable-releases-only repository*
 It is meant to describe the product at a high level without exposing internal architectural details that are still being stabilized for future public release.
 
 ---
-QuClab — Quantum Circuit Laboratory
+QuClab — Quantum Circuit Laboratory  Copyright©2026 Modulelife(Cipher)
+
+## 严正声明
+本项目禁止用于包括但不限于大创挑战杯等大学生及中小学生创新赛事, 违者一经发现将被举报.
